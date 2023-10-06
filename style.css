@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body{
+    height: 70vh;
+    /* max-width: 990px; */
+    background-size: cover;
+    background-image: url("imges/Testimonial.jpg");
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+
+/*============================================================
+ header 
+ =========================================================*/
+
+ #header{
+margin-left: 110px;
+ 
+ }
+
+
+ .nav_menu{
+
+    background: #ffffff;
+    border-radius: 20px;
+display: flex;
+align-items: center;
+    padding: 13px 0;
+    width: 80%;  
+    margin: 20px;
+}
+
+.nav_Logo img{
+    height: 40px;
+margin-left: 50px;
+position: relative;
+border-right: 2px solid rgba(209, 12, 12, 0.5);
+border-bottom: 2px solid rgba(209, 12, 12, 0.9);
+border-top-left-radius: 30px;
+
+}
+/* .nav_Logo img{
+    content: "";
+    background: black;
+    position: absolute;
+    height: 10px;
+    width:50px;
+    left:50px;
+    top: 20px;
+     bottom: 0;
+ 
+} */
+
+
+
+.nav_menu ul{
+text-align: center;
+margin-left: 150px;
+
+}
+.nav_menu ul li {
+    padding: 0.3rem;
+    display: inline-block;
+}
+.nav_menu ul li a{
+    align-items: center;
+    color: #130f40;
+font-weight: bold;
+position: relative;
+text-transform: uppercase;
+}
+
+
+.nav_menu ul li a:after{
+ content: "";
+ background: black;
+ position: absolute;
+ height: 1px;
+ width:0;
+ left:0px;
+ top: 20px;
+  bottom: 0;
+  transition: 0.3s; 
+}
+
+
+.nav_menu ul li a:hover:after{
+
+    width: 100%;
+    
+    
+    }
+
+/*============================================================
+    Testimonial
+ =========================================================*/
+
+    #Testimonial{
+        margin:160px;
+        text-align: center;
+    }
+
+    .test_title{
+        margin-top: 350px;
+        padding: 50px;
+        text-align: center;
+    }
+
+    .test_title h1{
+        font-size: 3.0rem;
+    }
+    .test_title p{
+        padding-top: 20px;
+        line-height: 1.4rem;
+        font-size: 1.2rem;
+        color: #696666;
+    }
+
+    .test_card{ 
+    
+
+
+        display: grid;
+        grid-column-gap: 2rem;
+        grid-row-gap: 3rem;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 2fr 2fr;
+    }
+
+    .card_item{
+        height: 40vh;
+padding: 20px;
+border-radius: 30px;
+margin-bottom: 50px;
+   box-shadow: 1px 3px 10px 0px black;
+    }
+
+
+    .star_img{
+        padding-bottom: 50px;
+ 
+    }
+
+
+
+
+
+    .card_item img{
+        margin-left: 190px;
+width: 80px;
+
+border-radius: 50%;
+display: block;
+text-align: center;
+margin-bottom: 5px;
+    }
+    .card_item .fa-star{
+        color: rgb(255, 106, 0);
+     
+       
+    }
+
+/*============================================================
+    Testimonial
+ =========================================================*/
+ #footer{
+    color: #ffffff;
+    text-align: center;
+    background: #130f40;
+    height: 80vh;
+    padding: 50px 0;
+ }
+
+
+ .footer_title img{
+    height: 60px;
+    border: 5px solid #ffffff;
+ }
+ .footer_title p{
+word-spacing: 4px;
+    padding: 10px;
+ }
+ .footer_social_icon{
+    font-size: 1.8rem;
+    padding: 10px;
+ }
+
+
+
+ .footer_inner_menu{
+background:#30336b ;
+ }
+
+ .footer_inner_menu ul{
+text-align: center;
+padding: 1.2rem;
+ }
+
+ .footer_inner_menu ul li{
+    text-align: center;
+    display: inline-block;
+    position: relative;;
+ }
+
+ .footer_inner_menu ul li a{
+ color: #ffffff;
+ padding: 1rem;
+
+
+
+ }
+
+
+ .footer_inner_menu ul li::after{
+    content: "";
+    background: #fff;
+    position: absolute;
+    height: 20px;
+    width: 2px;
+    top: 2px;
+    /* right:-10px; */
+
+
+}
+.footer_inner_menu ul li:last-child:after{
+   display: none;
+
+
+}
+
+
+
+
+ /* .footer_inner_menu ul li a::after{
+
+ border-left: 1px solid #ffffff;
+ height: 4px;
+ top: 5px;
+ left: 0;
+ } */
+ .footer_subcribe h1{
+    padding: 10px;
+ }
+ .footer_subcribe input{
+    height: 40px;
+    width: 50%;
+    position: relative;
+    border-radius: 20px;
+ }
+ .footer_subcribe span{
+    height: 40px;
+background: chocolate;
+margin-right: 50px;
+
+    position: absolute;
+ }
+
+ .footer_foot{
+    display: flex;
+    text-align: center;
+    margin: 70px;
+    justify-content: space-between;
+    word-spacing: 2px;
+ }
+
+ .top{
+    padding-top: 5px;
+    background:#ffffff;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position:sticky;
+ }
+ .top img{
+height: 40px;
+width: 40px;
+color:rgb(255, 255, 255);
+
+}
+
